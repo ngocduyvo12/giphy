@@ -43,6 +43,7 @@ $.ajax({
     $("#animal-view").prepend(animalDiv);
   // ==================================
    }
+   //update offset
    offset+= 10;
 });
 };
