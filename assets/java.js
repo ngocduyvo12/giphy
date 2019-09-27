@@ -30,9 +30,9 @@ $.ajax({
     var animalImage = $(`<img>`)
   // Set the image's src to results[i]'s fixed_height.url.
     animalImage.addClass("gif");
-    animalImage.attr("src", results[i].images.fixed_height_still.url);
-    animalImage.attr("data-still", results[i].images.fixed_height_still.url);
-    animalImage.attr("data-animate", results[i].images.fixed_height.url);
+    animalImage.attr("src", results[i].images.fixed_width_still.url);
+    animalImage.attr("data-still", results[i].images.fixed_width_still.url);
+    animalImage.attr("data-animate", results[i].images.fixed_width.url);
     animalImage.attr("data-state", "still");
 
     // Append the animalImage variable to the animalDiv variable.
