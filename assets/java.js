@@ -93,7 +93,7 @@ function animateGifs() {
 
     // console.log(state)
     // console.log(stillURL)
-    console.log(animatedURL)
+    // console.log(animatedURL)
     
     // If state is equal to 'animate', then update the src attribute of this. then update state to still
     // image to it's data-still value and update the data-state attribute to 'still'. then update state to animate
