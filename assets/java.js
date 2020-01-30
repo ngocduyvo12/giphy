@@ -4,7 +4,6 @@
 var animals = ["dog", "cat", "Mr. Nobody", "The Lion King"];
 //set offset to get different images
 var offset = 0;
-  //api key: NUcHjDA6ApR8Hasq0hGpNH5RbAxFmUkf
 function displayAnimalInfo() {
 var animal = $(this).attr("data-name");
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
