@@ -91,7 +91,7 @@ function animateGifs() {
     //make a third variable named animatedURL and the store the img data-animate into it
     var animatedURL = $(this).attr("data-animate")
 
-    console.log(state)
+    // console.log(state)
     console.log(stillURL)
     console.log(animatedURL)
     
