@@ -8,7 +8,7 @@ function displayAnimalInfo() {
 var animal = $(this).attr("data-name");
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
   animal + "&api_key=NUcHjDA6ApR8Hasq0hGpNH5RbAxFmUkf&limit=10&offset="+offset+"";
-  console.log(animal)
+
 $.ajax({
   url: queryURL,
   method: "GET"
