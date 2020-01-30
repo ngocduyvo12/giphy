@@ -92,7 +92,7 @@ function animateGifs() {
     var animatedURL = $(this).attr("data-animate")
 
     // console.log(state)
-    console.log(stillURL)
+    // console.log(stillURL)
     console.log(animatedURL)
     
     // If state is equal to 'animate', then update the src attribute of this. then update state to still
